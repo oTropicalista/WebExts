@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "replace-it!",
+    "version": "1.0",
+    "description": "Replace the inserted word on the page",
+    "icons": {
+        "48": "icons/border-48.png"
+    },
+
+    "permissions": [
+        "http://*/*",
+        "https://*/*"
+    ],
+    "browser_action": {
+        "default_icon": "button/beasts.png",
+        "default_title": "Replace it!",
+        "default_popup": "popup/popup.html"
+    }
+}
